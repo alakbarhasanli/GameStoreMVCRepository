@@ -46,6 +46,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcR2FtZXNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/II Novbe/Desktop/gamestore/GamesStore2/GamesStore2/Areas/admin/Views/Reviews/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUmV2aWV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/II Novbe/Desktop/gamestore/GamesStore2/GamesStore2/Areas/admin/Views/Reviews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUmV2aWV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/II Novbe/Desktop/gamestore/GamesStore2/GamesStore2/Areas/admin/Views/Reviews/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUmV2aWV3c1xJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/II Novbe/Desktop/gamestore/GamesStore2/GamesStore2/Areas/admin/Views/Reviews/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUmV2aWV3c1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/II Novbe/Desktop/gamestore/GamesStore2/GamesStore2/Areas/admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +76,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/II Novbe/Desktop/gamestore/GamesStore2/GamesStore2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/II Novbe/Desktop/gamestore/GamesStore2/GamesStore2/Views/Home/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/II Novbe/Desktop/gamestore/GamesStore2/GamesStore2/Views/Shared/_Layout.cshtml]

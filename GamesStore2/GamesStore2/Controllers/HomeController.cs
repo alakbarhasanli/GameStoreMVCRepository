@@ -8,5 +8,13 @@ namespace GamesStore2.Controllers
         {
             return View();
         }
+        public IActionResult ProductDetails()
+        {
+            return View();
+        }
+        public IActionResult Message()
+        {
+            return View();
+        }
     }
 }

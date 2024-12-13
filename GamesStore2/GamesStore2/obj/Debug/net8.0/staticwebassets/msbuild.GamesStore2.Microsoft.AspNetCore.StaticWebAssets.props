@@ -30544,6 +30544,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\3d21da3c-67fd-46b6-8bc4-b9d07cd07fe9Library_task.png.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\3fec87dc-248d-49b1-b84e-850a88a13acfScreenshot_binary.png.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>GamesStore2</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GamesStore2</BasePath>
+      <RelativePath>Uploads/GamesPhoto/3fec87dc-248d-49b1-b84e-850a88a13acfScreenshot_binary.png.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\3fec87dc-248d-49b1-b84e-850a88a13acfScreenshot_binary.png.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\4b29e75f-de01-4c9c-ab3c-cb0d26f5e7eeScreenshot_binary.png.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>GamesStore2</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GamesStore2</BasePath>
+      <RelativePath>Uploads/GamesPhoto/4b29e75f-de01-4c9c-ab3c-cb0d26f5e7eeScreenshot_binary.png.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\4b29e75f-de01-4c9c-ab3c-cb0d26f5e7eeScreenshot_binary.png.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\59440ce8-8369-408b-93df-44d5337bbf06liverpool stadium.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>GamesStore2</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GamesStore2</BasePath>
+      <RelativePath>Uploads/GamesPhoto/59440ce8-8369-408b-93df-44d5337bbf06liverpool stadium.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\59440ce8-8369-408b-93df-44d5337bbf06liverpool stadium.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\6173652a-ad0c-42dd-9028-150df4dd7e5bcanvas.png.png))">
       <SourceType>Package</SourceType>
       <SourceId>GamesStore2</SourceId>
@@ -30591,6 +30639,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\75e9bf9c-0a9d-454e-bcea-542e8ce41f58Library_task.png.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\c854ba89-f98a-4f65-84fe-40ae4136ffdbliverpool.jpg.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>GamesStore2</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GamesStore2</BasePath>
+      <RelativePath>Uploads/GamesPhoto/c854ba89-f98a-4f65-84fe-40ae4136ffdbliverpool.jpg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\c854ba89-f98a-4f65-84fe-40ae4136ffdbliverpool.jpg.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\db3f7cf6-e476-4869-aaae-905a005c6826Screenshot_1.png.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>GamesStore2</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GamesStore2</BasePath>
+      <RelativePath>Uploads/GamesPhoto/db3f7cf6-e476-4869-aaae-905a005c6826Screenshot_1.png.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\db3f7cf6-e476-4869-aaae-905a005c6826Screenshot_1.png.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\f2a834ad-8528-4908-8a5d-474dabe13017Screenshot_binary.png.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>GamesStore2</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GamesStore2</BasePath>
+      <RelativePath>Uploads/GamesPhoto/f2a834ad-8528-4908-8a5d-474dabe13017Screenshot_binary.png.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\GamesPhoto\f2a834ad-8528-4908-8a5d-474dabe13017Screenshot_binary.png.png))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

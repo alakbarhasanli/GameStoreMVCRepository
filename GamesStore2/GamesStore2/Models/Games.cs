@@ -12,7 +12,9 @@ namespace GamesStore2.Models
         public string GameId { get; set; }
         [NotMapped]
         public IFormFile? GamesPhoto { get; set; }
+        public ICollection<Reviews> Reviews { get; set; }
 
+      
 
     }
 }

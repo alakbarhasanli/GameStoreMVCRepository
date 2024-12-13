@@ -28,6 +28,7 @@ namespace GamesStore2.Areas.admin.Controllers
         }
         public IActionResult Create()
         {
+            
             return View();
         }
         [HttpPost]
@@ -51,12 +52,14 @@ namespace GamesStore2.Areas.admin.Controllers
                     return View(games);
                 }
             }
-                _context.games.Add(games);
+         
+            _context.games.Add(games);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
         public IActionResult Update()
         {
+            
             return View();
         }
         [HttpPost]
@@ -87,7 +90,8 @@ namespace GamesStore2.Areas.admin.Controllers
                         ModelState.AddModelError("GamesPhoto", "Size or Type is not correct.");
                         return View(games);  
                     }
-                _context.games.Update(updatedGames);
+                    
+                    _context.games.Update(updatedGames);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
                 }
