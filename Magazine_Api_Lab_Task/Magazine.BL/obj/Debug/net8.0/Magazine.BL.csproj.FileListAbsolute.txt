@@ -1,0 +1,15 @@
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\bin\Debug\net8.0\Magazine.BL.deps.json
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\bin\Debug\net8.0\Magazine.BL.dll
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\bin\Debug\net8.0\Magazine.BL.pdb
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\bin\Debug\net8.0\Magazine.DL.dll
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\bin\Debug\net8.0\Magazine.DL.pdb
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\Magazine.BL.csproj.AssemblyReference.cache
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\Magazine.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\Magazine.BL.AssemblyInfoInputs.cache
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\Magazine.BL.AssemblyInfo.cs
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\Magazine.BL.csproj.CoreCompileInputs.cache
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\Magazine.2089F088.Up2Date
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\Magazine.BL.dll
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\refint\Magazine.BL.dll
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\Magazine.BL.pdb
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.BL\obj\Debug\net8.0\ref\Magazine.BL.dll

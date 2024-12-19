@@ -1,0 +1,14 @@
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\bin\Debug\net8.0\Magazine.DL.deps.json
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\bin\Debug\net8.0\Magazine.DL.runtimeconfig.json
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\bin\Debug\net8.0\Magazine.DL.dll
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\bin\Debug\net8.0\Magazine.DL.pdb
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\Magazine.DL.csproj.AssemblyReference.cache
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\Magazine.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\Magazine.DL.AssemblyInfoInputs.cache
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\Magazine.DL.AssemblyInfo.cs
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\Magazine.DL.csproj.CoreCompileInputs.cache
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\Magazine.DL.dll
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\refint\Magazine.DL.dll
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\Magazine.DL.pdb
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\Magazine.DL.genruntimeconfig.cache
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.DL\obj\Debug\net8.0\ref\Magazine.DL.dll
