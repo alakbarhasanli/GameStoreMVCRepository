@@ -147,3 +147,4 @@ C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.API\obj\Debug\net8
 C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.API\obj\Debug\net8.0\Magazine.API.pdb
 C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.API\obj\Debug\net8.0\Magazine.API.genruntimeconfig.cache
 C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.API\obj\Debug\net8.0\ref\Magazine.API.dll
+C:\Users\II Novbe\source\repos\Magazine_Api_Lab_Task\Magazine.API\bin\Debug\net8.0\AutoMapper.dll

@@ -1,4 +1,5 @@
-﻿using Magazine.DL.Entities;
+﻿using Magazine.BL.DTOs;
+using Magazine.DL.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,10 @@ namespace Magazine.BL.Services.Abstractions
     public  interface IParticipantsService
     {
         Task<IEnumerable<Participants>> GetAllasync();
-        Task<IEnumerable<Participants>> GetAllAsync();
         Task<Participants> GetByIdAsync(int id);
-        Task<Participants> CreateAsync(Participants);
+        Task<Participants> CreateAsync(ParcitipantsCreateDTO parcitipantsCreateDTO);
         void Update(Participants participants);
         void Delete(Participants participants);
-
+        
     }
 }
