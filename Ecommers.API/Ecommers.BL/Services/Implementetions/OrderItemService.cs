@@ -14,40 +14,53 @@ namespace Ecommers.BL.Services.Implementetions
     public class OrderItemService : IOrderItemService
     {
         private readonly IOrderItemRepository _repo;
-        private readonly Mapper _mapper;
-        public OrderItemService(IOrderItemRepository repo,Mapper mapper)
+        private readonly IMapper _mapper;
+        public OrderItemService(IOrderItemRepository repo,IMapper mapper)
         {
             _mapper = mapper;
             _repo = repo;
         }
-        public Task<Product> CreateOrderItemAsync(OrderItemCreateDto orderItemCreateDto)
+        public async Task<OrderItem> CreateOrderItemAsync(OrderItemCreateDto orderItemCreateDto)
         {
-            throw new NotImplementedException();
+            OrderItem orderItem = _mapper.Map<OrderItem>(orderItemCreateDto);
+            orderItem.CreatedDate = DateTime.Now;
+            var createdOrderItem = await _repo.CreateAsync(orderItem);
+            await _repo.SaveChangesAsync();
+            return createdOrderItem;
         }
 
-        public Task<IEnumerable<OrderItem>> GetAllOrderItemAsync()
+        public async Task<IEnumerable<OrderItem>> GetAllOrderItemAsync()
         {
-            throw new NotImplementedException();
+            return await _repo.GetAllAsync();
         }
 
-        public Task<OrderItem> GetOneorderItemAsync(int id)
+        public async Task<OrderItem> GetOneorderItemAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _repo.GetOneEntityIdAsync(id);
         }
 
-        public Task<bool> HardDeleteAsnyc(int id)
+        public async Task<bool> HardDeleteAsnyc(int id)
         {
-            throw new NotImplementedException();
+            var orderItem = await _repo.GetOneEntityIdAsync(id);
+            _repo.HardDelete(orderItem);
+            return true;
         }
 
-        public Task<bool> SoftDeleteAsync(int id)
+        public async Task<bool> SoftDeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var orderItem = await _repo.GetOneEntityIdAsync(id);
+            _repo.SoftDelete(orderItem);
+            return true;
         }
 
-        public Task<bool> UpdateOrderItemAsync(int id, OrderItemCreateDto orderItemCreateDto)
+        public async Task<bool> UpdateOrderItemAsync(int id, OrderItemCreateDto orderItemCreateDto)
         {
-            throw new NotImplementedException();
+            OrderItem orderItem = _mapper.Map<OrderItem>(orderItemCreateDto);
+            orderItem.CreatedDate = DateTime.Now;
+            var entityOrderItem = await _repo.GetOneEntityIdAsync(id);
+            _repo.Update(entityOrderItem);
+            await _repo.SaveChangesAsync();
+            return true;
         }
     }
 }

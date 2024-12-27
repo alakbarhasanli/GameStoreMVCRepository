@@ -11,15 +11,15 @@ namespace Ecommers.DAL.Contexts
 {
     public  class EcommerseDbContext:DbContext
     {
-        DbSet<Product> products { get; set; }
-        DbSet<Order> orders { get; set; }
-        DbSet<OrderItem> orderItems { get; set; }
+        public DbSet<Product> products { get; set; }
+        public DbSet<Order> orders { get; set; }
+        public DbSet<OrderItem> orderItems { get; set; }
 
-        public EcommerseDbContext(DbContextOptions opt):base(opt) { }
+        public EcommerseDbContext(DbContextOptions<EcommerseDbContext> opt):base(opt) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            base.OnModelCreating(modelBuilder);
         }
 
     }

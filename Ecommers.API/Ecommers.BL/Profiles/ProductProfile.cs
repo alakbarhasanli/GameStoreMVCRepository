@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 
 namespace Ecommers.BL.Profiles
 {
-    public class ProductProfile:Profile
+    public class ProductProfile : Profile
     {
         public ProductProfile()
         {
+
             CreateMap<ProductCreateDto, Product>().ReverseMap();
         }
     }

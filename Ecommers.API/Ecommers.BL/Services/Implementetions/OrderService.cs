@@ -14,8 +14,8 @@ namespace Ecommers.BL.Services.Implementetions
     public class OrderService:IOrderService
     {
         private readonly IOrderRepository _repo;
-        private readonly Mapper _mapper;
-        public OrderService(IOrderRepository repo, Mapper mapper)
+        private readonly IMapper _mapper;
+        public OrderService(IOrderRepository repo, IMapper mapper)
         {
             _repo = repo;
             _mapper = mapper;
@@ -52,7 +52,7 @@ namespace Ecommers.BL.Services.Implementetions
         {
             var order = await _repo.GetOneEntityIdAsync(id);
             _repo.SoftDelete(order);
-            return true; ;
+            return true; 
         }
 
         public async Task<bool> UpdateOrderAsync(int id, OrderCreateDto orderCreateDto)

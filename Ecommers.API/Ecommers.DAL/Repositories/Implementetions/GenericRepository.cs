@@ -17,19 +17,20 @@ namespace Ecommers.DAL.Repositories.Implementetions
         {
             _context = context;
         }
-        public DbSet<TEntity> table => _context.Set<TEntity>();
+        public DbSet<TEntity> Table => _context.Set<TEntity>();
         public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            return await table.ToListAsync();
+            return await Table.Where(x=>!x.IsDeleted).ToListAsync();
         }
         public async Task<TEntity> GetOneEntityIdAsync(int id)
         {
-            var existingEntity = await table.FindAsync(id);
+            var existingEntity = await Table.FirstOrDefaultAsync(x=>x.Id==id && !x.IsDeleted);
+            _context.Entry(existingEntity).State=EntityState.Detached;
             return existingEntity;
         }
         public async Task<TEntity> CreateAsync(TEntity entity)
         {
-            await table.AddAsync(entity);
+            await Table.AddAsync(entity);
             return entity;
 
         }
@@ -46,7 +47,7 @@ namespace Ecommers.DAL.Repositories.Implementetions
         }
         public void HardDelete(TEntity entity)
         {
-            table.Remove(entity);
+            Table.Remove(entity);
 
 
         }

@@ -1,0 +1,14 @@
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\bin\Debug\net8.0\Ecommers.DAL.deps.json
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\bin\Debug\net8.0\Ecommers.DAL.runtimeconfig.json
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\bin\Debug\net8.0\Ecommers.DAL.dll
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\bin\Debug\net8.0\Ecommers.DAL.pdb
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\Ecommers.DAL.csproj.AssemblyReference.cache
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\Ecommers.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\Ecommers.DAL.AssemblyInfoInputs.cache
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\Ecommers.DAL.AssemblyInfo.cs
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\Ecommers.DAL.csproj.CoreCompileInputs.cache
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\Ecommers.DAL.dll
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\refint\Ecommers.DAL.dll
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\Ecommers.DAL.pdb
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\Ecommers.DAL.genruntimeconfig.cache
+C:\Users\II Novbe\source\repos\Ecommers.API\Ecommers.DAL\obj\Debug\net8.0\ref\Ecommers.DAL.dll

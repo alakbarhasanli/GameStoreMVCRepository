@@ -15,8 +15,8 @@ namespace Ecommers.BL.Services.Implementetions
     public class ProductService : IProductService
     {
         private readonly IProductRepository _repo;
-        private readonly Mapper _mapper;
-        public ProductService(IProductRepository repo, Mapper mapper)
+        private readonly IMapper _mapper;
+        public ProductService(IProductRepository repo, IMapper mapper)
         {
             _repo = repo;
             _mapper = mapper;
@@ -46,6 +46,7 @@ namespace Ecommers.BL.Services.Implementetions
         {
             var product = await _repo.GetOneEntityIdAsync(id);
             _repo.HardDelete(product);
+            await _repo.SaveChangesAsync();
             return true;
         }
 
@@ -53,14 +54,15 @@ namespace Ecommers.BL.Services.Implementetions
         {
            var product= await _repo.GetOneEntityIdAsync(id);
             _repo.SoftDelete(product);
-            return true; ;
+            await _repo.SaveChangesAsync();
+            return true; 
         }
 
         public async Task<bool> UpdateProductAsync(int id, ProductCreateDto productCreateDto)
         {
+            var entityproduct = await _repo.GetOneEntityIdAsync(id);
             Product product = _mapper.Map<Product>(productCreateDto);
             product.CreatedDate = DateTime.Now;
-            var entityproduct = await _repo.GetOneEntityIdAsync(id);
             _repo.Update(product);
             await _repo.SaveChangesAsync();
             return true;

@@ -12,7 +12,7 @@ namespace Ecommers.BL.Services.Abstractions
     {
         Task<IEnumerable<OrderItem>> GetAllOrderItemAsync();
         Task<OrderItem> GetOneorderItemAsync(int id);
-        Task<Product> CreateOrderItemAsync(OrderItemCreateDto orderItemCreateDto);
+        Task<OrderItem> CreateOrderItemAsync(OrderItemCreateDto orderItemCreateDto);
         Task<bool> UpdateOrderItemAsync(int id, OrderItemCreateDto orderItemCreateDto);
         Task<bool> SoftDeleteAsync(int id);
         Task<bool> HardDeleteAsnyc(int id);
